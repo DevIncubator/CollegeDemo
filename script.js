@@ -178,7 +178,7 @@ let loader=new THREE.TextureLoader();
 let texture;
 loader.setCrossOrigin("anonymous");
 loader.load(
-  'https://raw.githubusercontent.com/DevIncubator/CollegeLibrary/main/noise.png',
+  'https://raw.githubusercontent.com/devincubator/CollegeLibrary/main/noise.png',
   function do_something_with_texture(tex) {
     texture = tex;
     texture.wrapS = THREE.RepeatWrapping;
